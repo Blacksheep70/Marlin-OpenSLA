@@ -1,3 +1,6 @@
+I forked OpenSL and made it compileable. Build is NOT tested yet. Use it at your OWN risk!
+------------------------------------------------------------------------------------------------
+
 OpenSL 1.0 Firmware, Heavily based on Marlin.
 
 WARNING: 
