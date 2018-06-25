@@ -1,13 +1,16 @@
 I forked OpenSL and made it compileable. Build is NOT tested yet! 
 -----------------------------------------------------------------
--> Use it at your OWN risk!
----------------------------
 
 As per code the galvos are controlled via DAC (i suggest to use two OpAmps per channel as well to amplify the signals). So all you need is to wire the DAC up with the SPI interface. I use a cheap MCP4822 which cost roundabout 5 Euros.
 
 It's planned to develop an own shield inclduing stepper driver, DAC with OpAmps, Endstops and Servo for the vat but it will take time.
 
-For now you can create a PCB by yourself and connect the PCB to your SPI bus. Note that the current code is using the SPI pins from a MEGA.
+For now you can create a PCB by yourself and connect the PCB to your SPI bus:
+https://github.com/SpicerSolutions/GalvoController
+Note that the current code is using the SPI pins from a MEGA.
+
+Disclaimer: Use the code at your own risk. I am not responsible for any damage to your hardware!
+
 
 Initial project decription:
 ---------------------------
